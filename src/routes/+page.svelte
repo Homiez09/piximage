@@ -85,8 +85,8 @@
         file:bg-violet-50 file:text-violet-700
         hover:file:bg-violet-100"
 	/>
-	<input id="pixelSize" type="number" bind:value={pixelSize} min="1" max="10" />
-	<input id="pixelSize" type="range" bind:value={pixelSize} min="1" max="10" />
+	<input id="pixelSize" type="number" bind:value={pixelSize} min="1" max="50" />
+	<input id="pixelSize" type="range" bind:value={pixelSize} min="1" max="50" />
 	<div class="flex flex-row gap-2">
 		<button id="reloadButton" class="btn btn-secondary">reload</button>
 		<button id="downloadButton" class="btn btn-primary">download</button>
