@@ -65,9 +65,11 @@
 	});
 </script>
 
-<div class="flex flex-col min-h-screen items-center justify-center gap-3">
+<div class="flex flex-col min-h-screen items-center justify-center gap-3 py-9">
 	<h1 class="text-4xl">PIXIMAGE</h1>
-	<canvas id="canvas" class="avatar border-2 rounded-2xl" />
+    <div class="flex w-full px-2 sm:px-40">
+        <canvas id="canvas" class="w-full h-auto border-2 rounded-2xl" />
+    </div>
 
 	<input
 		on:change={(e) => onFileSelected(e)}
